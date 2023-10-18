@@ -4,19 +4,22 @@ console.log(btn)
 
 
 btn.addEventListener('click',function(){
+
   let sceltadifficoltà = document.getElementById('Difficoltà').value;
+  const squarebox = document.getElementById('squarebox')
+  squarebox.innerHTML='';
   console.log(sceltadifficoltà)
   let numeroquadratini;
   if(sceltadifficoltà ==='facile'){
       numeroquadratini = 100;
   }
   else if(sceltadifficoltà==='medio'){
-     numeroquadratini = 81;
+      numeroquadratini = 81;
   }
   else{
      numeroquadratini=49;
   }
-   const squarebox = document.getElementById('squarebox')
+   
    
    for(let i = 0; i < numeroquadratini;i++){
     let square = boxadd(i,numeroquadratini);
