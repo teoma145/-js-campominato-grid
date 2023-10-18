@@ -6,10 +6,7 @@
     margin: 0 auto;
 
 }
-.mybutton{
-    margin: auto;
-    display: block;
-}
+
 .box{
     border: 2px solid white;
     width: calc(100% / 10);

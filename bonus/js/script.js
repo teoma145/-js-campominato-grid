@@ -2,7 +2,11 @@
 const btn=document.querySelector('button')
 console.log(btn)
 
+
 btn.addEventListener('click',function(){
+  let sceltadifficoltà = document.getElementById('Difficoltà').value;
+  console.log(sceltadifficoltà)
+  
    const squarebox = document.getElementById('squarebox')
    const numeroquadratini = 100;
    for(let i = 0; i < numeroquadratini;i++){
